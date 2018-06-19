@@ -28,6 +28,8 @@ jobs:
 
       - run: yarn install
 
+      - run: cat node_modules/bootstrap/dist/css/bootstrap.css
+
       - save_cache:
           paths:
             - ~/.yarn-cache
