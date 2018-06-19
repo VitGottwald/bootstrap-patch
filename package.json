@@ -18,6 +18,7 @@
     "style-loader": "^0.21.0"
   },
   "scripts": {
+    "postinstall": "patch-package",
     "build": "webpack --config webpack.config.js"
   }
 }
